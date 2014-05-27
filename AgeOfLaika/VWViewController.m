@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertNumber:(UIButton *)sender {
+    
+    int input = [self.numberField.text integerValue];
+    int ageOfLaika = input * 3;
+    self.ageOfLaika.text = [NSString stringWithFormat:@"%i", ageOfLaika];
+    [self.numberField resignFirstResponder];
+}
 @end

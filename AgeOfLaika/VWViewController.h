@@ -10,4 +10,11 @@
 
 @interface VWViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *ageOfLaika;
+
+@property (strong, nonatomic) IBOutlet UITextField *numberField;
+
+- (IBAction)convertNumber:(UIButton *)sender;
+
+
 @end

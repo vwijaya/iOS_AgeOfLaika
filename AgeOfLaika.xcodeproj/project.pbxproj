@@ -21,6 +21,7 @@
 		09CB6FC318D9936900A9F189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB6FA518D9936900A9F189 /* UIKit.framework */; };
 		09CB6FCB18D9936900A9F189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09CB6FC918D9936900A9F189 /* InfoPlist.strings */; };
 		09CB6FCD18D9936900A9F189 /* AgeOfLaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CB6FCC18D9936900A9F189 /* AgeOfLaikaTests.m */; };
+		09CB6FD718D9967A00A9F189 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 09CB6FD618D9967A00A9F189 /* St.Bernard.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		09CB6FC818D9936900A9F189 /* AgeOfLaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgeOfLaikaTests-Info.plist"; sourceTree = "<group>"; };
 		09CB6FCA18D9936900A9F189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09CB6FCC18D9936900A9F189 /* AgeOfLaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgeOfLaikaTests.m; sourceTree = "<group>"; };
+		09CB6FD618D9967A00A9F189 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		09CB6FA818D9936900A9F189 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09CB6FD618D9967A00A9F189 /* St.Bernard.JPG */,
 				09CB6FA918D9936900A9F189 /* AgeOfLaika-Info.plist */,
 				09CB6FAA18D9936900A9F189 /* InfoPlist.strings */,
 				09CB6FAD18D9936900A9F189 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CB6FD718D9967A00A9F189 /* St.Bernard.JPG in Resources */,
 				09CB6FBA18D9936900A9F189 /* Images.xcassets in Resources */,
 				09CB6FAC18D9936900A9F189 /* InfoPlist.strings in Resources */,
 				09CB6FB518D9936900A9F189 /* Main.storyboard in Resources */,
